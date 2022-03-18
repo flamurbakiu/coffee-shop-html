@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ebe2d7;
+}
+
+div.header_banner {
+  background-image: url("https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.header_banner h1 {
+  font-family: "Covered By Your Grace", cursive;
+  color: #41292c;
+  font-size: 70px;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.container {
+  background-color: white;
+  margin: 50px 200px;
+  border-radius: 5px;
+}
+
+.note {
+  text-align: center;
+  padding: 20px 25px;
+}
+
+.note h3 {
+  padding: 20px 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.note p {
+  color: #444444;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+}
+
+.cards {
+  padding: 30px 25px;
+}
+
+.card1 {
+  background-color: darkseagreen;
+}
+
+.card2 {
+  background-color: sienna;
+}
+
+.card3 {
+  background-color: saddlebrown;
+}
+
+.card4 {
+  background-color: brown;
+}
+
+.card5 {
+  background-color: black;
+}
+
+.card {
+  color: #fff;
+  padding: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.card h2 {
+  padding-bottom: 13px;
+  font-weight: 700;
+}
+
+.card .temperature {
+  padding-bottom: 13px;
+  font-weight: 100;
+}
+
+.card p {
+  font-weight: 500;
+}
